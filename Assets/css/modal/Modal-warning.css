@@ -1,0 +1,102 @@
+.modal-warning {
+    color: #434e65;
+    width: 90%;
+    max-width: 525px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.modal-warning .modal-content {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.modal-warning #headerWar {
+    background: #daa32d;
+    border-bottom: none;
+    position: relative;
+    text-align: center;
+    margin: -20px -20px 0;
+    border-radius: 5px 5px 0 0;
+    padding: 65px;
+}
+
+.modal-warning h4 {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.modal-warning .form-control,
+.modal-warning .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+
+.modal-warning .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    text-shadow: none;
+    opacity: 0.5;
+}
+
+.modal-warning .close:hover {
+    opacity: 0.8;
+}
+
+.modal-warning .icon-box {
+    color: #fff;
+    position: fixed;
+}
+
+.modal-warning .icon-box i {
+    font-size: 48px;
+    margin: -3px 0 0 -3px;
+}
+
+.modal-warning .btn1 {
+    color: #fff;
+    border-radius: 4px;
+    background: #e97c33;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border-radius: 30px;
+    margin-top: -19px;
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+}
+
+.modal-warning .btn:hover,
+.modal-warning .btn:focus {
+
+    outline: none;
+}
+
+.modal-warning .btn span {
+    margin: 1px 3px 0;
+
+    float: left;
+}
+
+.modal-warning .btn i {
+    margin-left: 1px;
+    font-size: 20px;
+    float: right;
+}
+
+.trigger-btn {
+    display: inline-block;
+    margin: 50px auto;
+}
+.botonWarning {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    
+}
